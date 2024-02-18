@@ -1,0 +1,43 @@
+.app-bar {
+  background-color: rgb(235, 235, 235) !important;
+  color: rgb(85, 84, 84) !important;
+}
+
+.search-icon {
+  position: absolute;
+  cursor: pointer;
+  top: 21px;
+  padding-left: 5px;
+  right: 13.5%;
+}
+
+.close-icon {
+  position: absolute;
+  right: 23px;
+}
+
+.search-input {
+  padding-left: 25px;
+}
+
+.drawer-link:hover {
+  background-color: rgb(196, 195, 195);
+}
+ 
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+ 
+   
+
+ 
+@media only screen and (max-width: 769px) {
+  .search-icon {
+    top: 29%;
+    right: 35.5%;
+  }
+  .search-input {
+    width: 70%;
+  }
+}

@@ -1,0 +1,17 @@
+.video-card {
+  cursor: pointer;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+}
+
+.video-media {
+  height: 140px;
+}
+
+.video-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

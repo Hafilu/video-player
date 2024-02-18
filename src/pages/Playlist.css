@@ -1,0 +1,12 @@
+.playlist-container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .playlist-item {
+    padding: 10px;
+  }
+  
+  .playlist{
+      margin-top: 10vh;
+  }
