@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+ # Video Player Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React.js-based video player build for an assessment purpose for React js developer at Rigi. This have features like playlist management capabilities. The application allows users to play videos from a playlist, featuring essential functionalities such as play/pause toggle, seek functionality, timer display, autoplay, and speed selector. Additionally, users can reorder the playlist according to their preferences.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Check out the live demo [here](https://video-player-rigi.netlify.app/).
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js
+- Tailwind CSS / styled-components (material ui)
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Video Player Component
 
-### `npm run build`
+The video player component includes the following features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Play/Pause toggle.
+- Seek functionality.
+- Timer displaying current playback time and duration.
+- Autoplay.
+- Speed selector for playback speed adjustment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Playlist Component
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The playlist component provides the following functionalities:
 
-### `npm run eject`
+- Display and manage videos in a playlist.
+- Allow users to reorder videos in the playlist.
+- Clicking on a video in the playlist loads and plays that video in the video player.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### React State Management
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React redux is utilized to manage video playback, playlist state, and other necessary variables.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Styling
 
-## Learn More
+Tailwind CSS and mui componenets are used for styling to create a clean and user-friendly interface.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Bonus Features 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Fullscreen mode.
+- Volume control.
+- Thumbnail previews.
+- Search/filter functionality for the playlist.
+- Responsive design for various screen sizes.
 
-### Code Splitting
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Follow these steps to set up and run the application:
 
-### Analyzing the Bundle Size
+1. Clone the repository.
+2. Install dependencies using `npm install` or `yarn install`.
+3. Run the application using `npm start` or `yarn start`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute, report issues, or suggest improvements. Happy coding!
